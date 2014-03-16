@@ -10,7 +10,7 @@ $ brew tap pote/gpm_plugins
 
 Remember that in order for plugins to work you need to be running [gpm v1.1.1](https://github.com/pote/gpm/releases/tag/v1.1.1) or later, updating should be a breeze if you're on homebrew though.
 
-Finally: yes, the name of this repo  makes my OCD run wild too but due to [hoembrew tap's naming rules](https://github.com/Homebrew/homebrew/wiki/brew-tap#naming-conventions-and-limitations) there's pretty much nothing I can do about that.
+Finally: yes, the name of this repo  makes my OCD run wild too but due to [homebrew tap's naming rules](https://github.com/Homebrew/homebrew/wiki/brew-tap#naming-conventions-and-limitations) there's pretty much nothing I can do about that.
 
 # Plugins
 
