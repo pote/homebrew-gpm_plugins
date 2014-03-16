@@ -3,6 +3,7 @@ require 'formula'
 class GpmBootstrap < Formula
   homepage 'https://github.com/pote/gpm-bootstrap'
   url 'https://github.com/pote/gpm-bootstrap/archive/v0.0.1.tar.gz'
+  sha1 '3c32c9bb7d82cfb3a45888c985602a17e6d57f18'
 
   depends_on 'gpm'
 
