@@ -3,7 +3,7 @@
 This repo contains [homebrew](http//brew.sh) for [gpm](http://github.com/pote/gpm), to add the formulae in this repository to your system simply run:
 
 ```bash
-$ brew tap pote/homebrew-gpm_plugins
+$ brew tap pote/gpm_plugins
 ```
 
 Remember that in order for plugins to work you need to be running [gpm v1.1.1](https://github.com/pote/gpm/releases/tag/v1.1.1) or later, updating should be a breeze if you're on homebrew.
