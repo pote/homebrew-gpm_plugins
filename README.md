@@ -1,12 +1,14 @@
 # gpm plugins for Homebrew
 
-This repo contains [homebrew](http//brew.sh) for [gpm](http://github.com/pote/gpm), to add the formulae in this repository to your system simply run:
+This repo contains [homebrew](http//brew.sh) formulae for [gpm](http://github.com/pote/gpm) plugins.
+
+In order to install these plugins you need to tap this repository into homebrew using `brew tap`:
 
 ```bash
 $ brew tap pote/gpm_plugins
 ```
 
-Remember that in order for plugins to work you need to be running [gpm v1.1.1](https://github.com/pote/gpm/releases/tag/v1.1.1) or later, updating should be a breeze if you're on homebrew.
+Remember that in order for plugins to work you need to be running [gpm v1.1.1](https://github.com/pote/gpm/releases/tag/v1.1.1) or later, updating should be a breeze if you're on homebrew though.
 
 Finally: yes, the name of this repo  makes my OCD run wild too but due to [hoembrew tap's naming rules](https://github.com/Homebrew/homebrew/wiki/brew-tap#naming-conventions-and-limitations) there's pretty much nothing I can do about that.
 
