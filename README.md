@@ -27,10 +27,10 @@ This allows for a lot of flexibility for anyone who wants to write a plugin for 
 ```bash
 brew install gpm-boostrap
 ```
-### Example usage
+### Example Usage
 ![gpm bootstrap](https://raw.github.com/pote/gpm-bootstrap/master/gpm_bootstrap.gif)
 
-### Commands added to gpm
+### Plugin Commands
 
 Once installed, gpm-bootstrap adds the following commands to gpm:
 
