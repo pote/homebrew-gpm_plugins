@@ -27,6 +27,7 @@ This allows for a lot of flexibility for anyone who wants to write a plugin for 
 ```bash
 brew install gpm-boostrap
 ```
+
 ### Example Usage
 ![gpm bootstrap](https://raw.github.com/pote/gpm-bootstrap/master/gpm_bootstrap.gif)
 
@@ -42,3 +43,39 @@ $ gpm bootstrap version   # Prints version information for the plugin.
 $ gpm bootstrap help      # Prints a help message.
 ```
 
+## gpm git
+
+`gpm-git` is a plugin that adds support for direct Git management of
+directories inside of a `gpm`-managed `$GOPATH`.
+
+The project lives in: https://github.com/technosophos/gpm-git
+
+### Installation
+
+```bash
+brew install gpm-boostrap
+```
+
+### Plugin Commands
+
+Once installed, gpm-git adds the following commands to gpm:
+
+```bash
+$ gpm git             # Same as 'install'.
+$ gpm git version     # Outputs version information
+$ gpm git help        # Prints this message
+```
+
+### Use Cases
+
+Using this plugin, you can use gpm to...
+
+* Work with Git repos that are password protected (e.g. private
+  Bitbucket repos).
+* Use any git repo that `git clone` can use.
+* Clone a full git repo into a local working copy, and modify it within
+  the copy. (Not necessarily recommended, but possible).
+
+### Documentation
+
+Further docs can be found in [the gpm-git repository](https://github.com/technosophos/gpm-git)
