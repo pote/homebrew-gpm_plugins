@@ -25,7 +25,7 @@ This allows for a lot of flexibility for anyone who wants to write a plugin for 
 ### Installation
 
 ```bash
-brew install gpm-boostrap
+brew install gpm-bootstrap
 ```
 
 ### Example Usage
