@@ -105,4 +105,36 @@ $ gpm local help                        # Prints this message
 
 ### Documentation
 
-Further docs can be found in [the gpm-git repository](https://github.com/technosophos/gpm-local)
+Further docs can be found in [the gpm-local repository](https://github.com/technosophos/gpm-local)
+
+## gpm link
+
+gpm-link's goal is to encapsulate any project dependency within the .godeps folder. Even the current project.
+
+It allows removing all the local import paths but mantaining control of the $GOPATH and having everything encapsulated in the .godeps folder.
+
+The project lives in: https://github.com/elcuervo/gpm-link
+
+### Installation
+
+```bash
+brew install gpm-link
+```
+
+### Plugin Commands
+
+Once installed, gpm-git adds the following commands to gpm:
+
+```bash
+$ gpm link add alias_name [path]  # This will make a symbolic link in the .godeps
+                                  # folder with the given alias name to a given
+                                  # path being "." the default one.
+                                  # Eg: gpm link add github.com/elcuervo/minimalweather .
+$ gpm link del alias_name         # Removes a current link
+$ gpm link version                # Current gpm link version
+$ gpm link help                   # Help message and usage
+```
+
+### Documentation
+
+Further docs can be found in [the gpm-link repository](https://github.com/elcuervo/gpm-link)
