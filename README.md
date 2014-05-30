@@ -53,7 +53,7 @@ The project lives in: https://github.com/technosophos/gpm-git
 ### Installation
 
 ```bash
-brew install gpm-boostrap
+brew install gpm-git
 ```
 
 ### Plugin Commands
@@ -79,3 +79,30 @@ Using this plugin, you can use gpm to...
 ### Documentation
 
 Further docs can be found in [the gpm-git repository](https://github.com/technosophos/gpm-git)
+
+## gpm local
+
+This plugin makes it possible for go tools to find subpackages in the present package by fully qualified package name.
+
+The project lives in: https://github.com/technosophos/gpm-local
+
+### Installation
+
+```bash
+brew install gpm-local
+```
+
+### Plugin Commands
+
+Once installed, gpm-git adds the following commands to gpm:
+
+```bash
+$ gpm local name bitbucket.org/foo/bar  # Set the local repo name
+                                        # to bitbucket.org/foo/bar
+$ gpm local version                     # Outputs version information
+$ gpm local help                        # Prints this message
+```
+
+### Documentation
+
+Further docs can be found in [the gpm-git repository](https://github.com/technosophos/gpm-local)
