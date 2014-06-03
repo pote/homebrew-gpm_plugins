@@ -2,8 +2,8 @@ require 'formula'
 
 class GpmGit < Formula
   homepage  'https://github.com/technosophos/gpm-git'
-  url       'https://github.com/technosophos/gpm-git/archive/1.0.0.tar.gz'
-  sha1      'fe1e6758667ee2aec38e1ee7acf9b79bc64fe9e1'
+  url       'https://github.com/technosophos/gpm-git/archive/v1.0.1.tar.gz'
+  sha1      '44db4a6fa4662bfc8bdf59e07eee110317103f90'
 
   depends_on 'gpm'
 
@@ -12,6 +12,6 @@ class GpmGit < Formula
   end
 
   test do
-    `gpm git version` =~ '>> gpm-git v1.0.0'
+    `gpm git version` =~ '>> gpm-git v1.0.1'
   end
 end
