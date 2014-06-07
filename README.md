@@ -80,33 +80,6 @@ Using this plugin, you can use gpm to...
 
 Further docs can be found in [the gpm-git repository](https://github.com/technosophos/gpm-git)
 
-## gpm local
-
-This plugin makes it possible for go tools to find subpackages in the present package by fully qualified package name.
-
-The project lives in: https://github.com/technosophos/gpm-local
-
-### Installation
-
-```bash
-brew install gpm-local
-```
-
-### Plugin Commands
-
-Once installed, gpm-git adds the following commands to gpm:
-
-```bash
-$ gpm local name bitbucket.org/foo/bar  # Set the local repo name
-                                        # to bitbucket.org/foo/bar
-$ gpm local version                     # Outputs version information
-$ gpm local help                        # Prints this message
-```
-
-### Documentation
-
-Further docs can be found in [the gpm-local repository](https://github.com/technosophos/gpm-local)
-
 ## gpm link
 
 gpm-link's goal is to encapsulate any project dependency within the .godeps folder. Even the current project.
@@ -138,3 +111,62 @@ $ gpm link help                   # Help message and usage
 ### Documentation
 
 Further docs can be found in [the gpm-link repository](https://github.com/elcuervo/gpm-link)
+
+
+## gpm local
+
+This plugin makes it possible for go tools to find subpackages in the present package by fully qualified package name.
+
+The project lives in: https://github.com/technosophos/gpm-local
+
+### Installation
+
+```bash
+brew install gpm-local
+```
+
+### Plugin Commands
+
+Once installed, gpm-git adds the following commands to gpm:
+
+```bash
+$ gpm local name bitbucket.org/foo/bar  # Set the local repo name
+                                        # to bitbucket.org/foo/bar
+$ gpm local version                     # Outputs version information
+$ gpm local help                        # Prints this message
+```
+
+### Documentation
+
+Further docs can be found in [the gpm-local repository](https://github.com/technosophos/gpm-local)
+
+## gpm prebuild
+
+This plugin runs a go build on all of your dependencies in the `$GOPATH`. If you are using a per-project `$GOPATH` (the standard way of using [gvp](https://github.com/pote/gvp) then prebuilding is a simple way of improving performance.
+
+The project lives in: https://github.com/technosophos/gpm-prebuild
+
+### Installation
+
+```bash
+brew install gpm-prebuild
+```
+
+### Plugin Commands
+
+Once installed, gpm-git adds the following commands to gpm:
+
+```bash
+$ gpm prebuild             # Pre-build everything in Godeps, alias of build
+$ gpm prebuild build       # Pre-build everything in Godeps
+$ gpm prebuild build-git   # Pre-build everything in Godeps-Git
+$ gpm prebuild git         # Alias of build-git
+$ gpm prebuild version     # Outputs version information
+$ gpm prebuild help        # Prints this message
+$ gpm prebuild clean       # Deletes existing prebuilds only from
+                           # the first path on GOPATH.
+```
+
+### Documentation
+
+Further docs can be found in [the gpm-prebuild repository](https://github.com/technosophos/gpm-prebuild)
