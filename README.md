@@ -154,7 +154,7 @@ brew install gpm-prebuild
 
 ### Plugin Commands
 
-Once installed, gpm-git adds the following commands to gpm:
+Once installed, gpm-prebuild adds the following commands to gpm:
 
 ```bash
 $ gpm prebuild             # Pre-build everything in Godeps, alias of build
@@ -170,3 +170,31 @@ $ gpm prebuild clean       # Deletes existing prebuilds only from
 ### Documentation
 
 Further docs can be found in [the gpm-prebuild repository](https://github.com/technosophos/gpm-prebuild)
+
+## gpm all
+
+gpm-all is a [gpm](https://github.com/pote/gpm) plugin that runs all Godeps files in the current directory, this is done so developers can have a `Godeps`, `Godeps.dev`, or any other kind of separation they choose in their dependencies.
+
+The project lives in: https://github.com/pote/gpm-all
+
+### Installation
+
+```bash
+brew install gpm-all
+```
+
+### Plugin Commands
+
+Once installed, gpm-all adds the following commands to gpm:
+
+```bash
+$ gpm all           # Downloads all external top-level packages required by
+                    # your application and generates a Godeps file with their
+                    # latest tags or revisions.
+$ gpm all version   # Prints version information for the plugin.
+$ gpm all help      # Prints this message.
+```
+
+### Documentation
+
+Further docs can be found in [the gpm-all repository](https://github.com/pote/gpm-all)
