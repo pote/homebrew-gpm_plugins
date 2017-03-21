@@ -3,7 +3,7 @@ require 'formula'
 class GpmLocal < Formula
   homepage  'https://github.com/technosophos/gpm-local'
   url       'https://github.com/technosophos/gpm-local/archive/1.0.0.tar.gz'
-  sha1      '6458dad18badfe76e852cf086720353f7cd1fac1'
+  sha256    '3ed02a31ec6c41ae31d1e2c5909798827f25a94bc6be7bbfb20e91a0519fd427'
 
   depends_on 'gpm'
 

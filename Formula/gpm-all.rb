@@ -3,7 +3,7 @@ require 'formula'
 class GpmAll < Formula
   homepage 'https://github.com/pote/gpm-all'
   url      'https://github.com/pote/gpm-all/archive/v0.0.1.tar.gz'
-  sha1     'ae11086086058aaa2ae011f75eb3aac78ebf4d53'
+  sha256   '4400b8683eba80c4e4b5e2c82d21ef2aff081ee9af7607e9caf1287f6c9a115d'
 
   depends_on 'gpm'
 
